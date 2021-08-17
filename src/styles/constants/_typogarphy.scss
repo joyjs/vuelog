@@ -1,0 +1,161 @@
+@font-face {
+font-family: 'Tiempos Text';
+src: url(../assets/Fonts/Tiempos-Text/TiemposText-Regular.eot);
+src: local('Tiempost Text Regular'), local('TiemposText-Regular'),
+url('TiemposText-Regular.eot?#iefix') format('embedded-opentype'),
+url('TiemposText-Regular.woff') format('woff'),
+url('TiemposText-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Tiempos Text';
+src: url(../assets/Fonts/Tiempos-Text/TiemposText-Italic.eot);
+src: local('Tiempos Text Italic'), local('TiemposText-Italic'),
+url('TiemposText-Italic.eot?#iefix') format('embedded-opentype'),
+url('TiemposText-Italic.woff') format('woff'),
+url('TiemposText-Italic.ttf') format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+
+@font-face {
+font-family: 'Tiempos Text';
+src: url(../assets/Fonts/Tiempos-Text/TiemposText-Bold.eot);
+src: local('Tiempos Text Bold'), local('TiemposText-Bold'),
+url('TiemposText-Bold.eot?#iefix') format('embedded-opentype'),
+url('TiemposText-Bold.woff') format('woff'),
+url('TiemposText-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Helvetica Neue Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Light'), url(../assets/Fonts/Helvetica-Neue/HelveticaNeueLight.woff) format('woff');
+}
+
+@font-face {
+font-family: 'Helvetica Neue Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Light Italic'), url(../assets/Fonts/Helvetica-Neue/HelveticaNeueLightItalic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Bold'), url(../assets/Fonts/HelveticaNeueBold.woff) format('woff');
+    }
+
+@font-face {
+    font-family: 'Helvetica Neue Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue Bold Italic'), url(../assets/Fonts/HelveticaNeueBoldItalic.woff) format('woff');
+    }
+
+@font-face {
+font-family: 'Helvetica Neue Condensed Black';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Condensed Black'), url(../assets/Fonts/Helvetica-Neue/HelveticaNeueCondensedBlack.woff) format('woff');
+}
+
+// common
+$font-familly-default: 'Helvetica Neue Light', sans-serif;
+$font-weight-default: 300;
+$font-family-header: 'Helvetica Neue Condensed Black', sans-serif;
+$font-weight-header: 900;
+$font-familly-blockquote: 'Helvetica Neue Bold', sans-serif;
+$font-weight-blockquote: 700;
+$font-familly-button-input: 'Arial', sans-serif;
+$font-weight-button-input: 400;
+$font-familly-list-title: 'Tiempos Text', serif;
+$font-weight-list-title: 700;
+$font-familly-body: 'Tiempos Text', serif;
+$font-weight-body: 400;
+
+
+// global = mobile
+$font-size-nav-link: 17px;
+$font-height-nav-link: 24px;
+$font-spacing-nav-link: -0.025em;
+
+$font-size-button-input: 18px;
+$font-height-button-input: 20.7px;
+$font-spacing-button-input: 0;
+
+$font-size-newsletter-title: 18px;
+$font-height-newsletter-title: 20px;
+$font-spacing-newsletter-title: 0;
+
+$font-size-newsletter-input: 18px;
+$font-height-newsletter-input: 20.7px;
+$font-spacing-newsletter-input: 0;
+
+$font-size-footer-logo: 18px;
+$font-height-footer-logo: 36px;
+$font-spacing-footer-logo: 0;
+
+$font-size-footer-links: 18px;
+$font-height-footer-links: 25px;
+$font-spacing-footer-links: 0;
+
+$font-size-h1: 34px;
+$font-height-h1: 40px;
+$font-spacing-h1: -0.031em;
+
+$font-size-h2: 22px;
+$font-height-h2: 24px;
+$font-spacing-h2: 0;
+
+$font-size-body: 16.5px;
+$font-height-body: 40px;
+$font-spacing-body: 0.006em;
+
+$font-size-categories: 14px;
+$font-height-categories: 16px;
+$font-spacing-categories: 0;
+
+
+// blog post
+
+$font-size-blog-h2: 24px;
+$font-height-blog-h2: 32px;
+$font-spacing-blog-h2: 0;
+
+$font-size-h3-subtitle: 18px;
+$font-height-h3-subtitle: 24px;
+$font-spacing-h3-subtitle: 0.006em;
+
+$font-size-h4: 14px;
+$font-height-h4: 32px;
+$font-spacing-h4: 0.05em;
+
+$font-size-blockquote: 36px;
+$font-height-blockquote: 48px;
+$font-spacing-blockquote: -0.031em;
+
+$font-size-list-title: 16.5px;
+$font-height-list-title: 29px;
+$font-spacing-list-title: 0.006em;
+
+
+// desktop
+
+$desktop-size-body: 19px;
+$desktop-height-body: 36px;
+$desktop-spacing-body: 0;
+
+$desktop-list-title: 19px;
+$desktop-list-title: 36px;
+$desktop-list-title: 0;
+
+
+
