@@ -1,5 +1,14 @@
 <template>
-  
+  <!-- <GNB /> -->
+  <div class="container">
+    <div class="row">
+      <h1 class="col-sm-1">
+        hi
+      </h1>
+    </div>
+  </div>
+
+
 </template>
 
 <script>
@@ -8,19 +17,11 @@
 export default {
   name: 'App',
   components: {
-   
+  //  GNB: 'GNB',
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Helvetica Neue, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  box-sizing: border-box;
-  margin: 0; 
-}
+<style lang="scss">
+
 </style>
