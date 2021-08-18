@@ -1,13 +1,15 @@
 @font-face {
     font-family: 'Tiempos';
-    src: url('../assets/Fonts/Tiempos-Text/TiemposText-Regular.woff') format('woff');
+    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+    url('/fonts/Tiempos-Text/TiemposText-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tiempos';
-    src: url('../assets/Fonts/Tiempos-Text/TiemposText-Italic.woff') format('woff');
+    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+    url('/fonts/Tiempos-Text/TiemposText-Italic.woff') format('woff');
     font-weight: 400;
     font-style: italic;
 }
@@ -15,65 +17,67 @@
 
 @font-face {
     font-family: 'Tiempos';
-    src: url('../assets/Fonts/Tiempos-Text/TiemposText-Bold.woff') format('woff');
+    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+    url('/fonts/Tiempos-Text/TiemposText-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tiempos';
-    src: url('../assets/Fonts/Tiempos-Text/TiemposText-Bold.woff') format('woff');
+    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+    url('/fonts/Tiempos-Text/TiemposText-BoldItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue Light'), url('../assets/Fonts/Helvetica-Neue/HelveticaNeueLight.woff') format('woff');
+    src: local('Helvetica Neue'), local('Helvetica Neue Light'), url('/fonts/Helvetica-Neue/HelveticaNeueLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue Light Italic'), url('../assets/Fonts/Helvetica-Neue/HelveticaNeueLightItalic.woff') format('woff');
+    src: local('Helvetica Neue'),local('Helvetica Neue Light Italic'), url('/fonts/Helvetica-Neue/HelveticaNeueLightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue Bold'), url('../assets/Fonts/HelveticaNeueBold.woff') format('woff');
+    src: local('Helvetica Neue'),local('Helvetica Neue Bold'), url('/fonts/Helvetica-Neue/HelveticaNeueBold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     }
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue Bold Italic'), url('../assets/Fonts/HelveticaNeueBoldItalic.woff') format('woff');
+    src: local('Helvetica Neue'),local('Helvetica Neue Bold Italic'), url('/fonts/Helvetica-Neue/HelveticaNeueBoldItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
     }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue Condensed Black'), url('../assets/Fonts/Helvetica-Neue/HelveticaNeueCondensedBlack.woff') format('woff');
+    font-family: 'Helvetica Neue Condensed Black';
+    src: local('Helvetica Neue'), local('Helvetica Neue Condensed Black'), url('/fonts/Helvetica-Neue/HelveticaNeueCondensedBlack.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 
 // common
-$font-familly-default: 'Helvetica Neue', sans-serif;
+$font-family-default: 'Helvetica Neue', sans-serif;
 $font-weight-default: 300;
-$font-family-header: 'Helvetica Neue', sans-serif;
+$font-family-header: 'Helvetica Neue Condensed Black', sans-serif;
 $font-weight-header: 900;
-$font-familly-blockquote: 'Helvetica', sans-serif;
+$font-family-blockquote: 'Helvetica', sans-serif;
 $font-weight-blockquote: 700;
-$font-familly-button-input: 'Arial', sans-serif;
+$font-family-button-input: 'Arial', sans-serif;
 $font-weight-button-input: 400;
-$font-familly-list-title: 'Tiempos', serif;
+$font-family-list-title: 'Tiempos', serif;
 $font-weight-list-title: 700;
-$font-familly-body: 'Tiempos', serif;
+$font-family-body: 'Tiempos', serif;
 $font-weight-body: 400;
 
 
