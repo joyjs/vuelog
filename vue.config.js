@@ -1,13 +1,17 @@
-// vue.config.js
 module.exports = {
     css: {
-      loaderOptions: {
+        loaderOptions: { 
             sass: {
-            additionalData: `@import "./src/styles/Layout"`,
-            additionalData: `@import "./src/styles/Base/_colors"`,
-            additionalData: `@import "./src/styles/Base/normalize"`,
-            additionalData: `@import "./src/styles/Base/reset"`,
-            },
-       }
-    }
-}
+                // additionalData: `@import "./src/assets/_shared.scss";`
+                additionalData: `@import "./src/styles/base/_normalize.scss";`,
+                additionalData: `@import "./src/styles/base/_reset.scss";`,
+                additionalData: `@import "./src/styles/base/_globals.scss";`,
+                additionalData: `@import "./src/styles/layouts/_grids.scss";`,
+                additionalData: `@import "./src/styles/constants/_colors.scss";`,
+                // additionalData: `@import "./src/styles/constants/_typography.scss";`,
+                additionalData: `@import "./src/styles/mixins/_flexbox.scss";`,
+                additionalData: `@import "./src/styles/mixins/_text-style.scss";`,
+              },
+        },
+    },
+};
