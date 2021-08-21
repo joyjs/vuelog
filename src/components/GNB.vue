@@ -144,7 +144,7 @@ export default {
 }
 
 .navbar-text-menus a:last-child {
-  margin-right: 0;
+  margin-right: 24px;
 }
 
 
