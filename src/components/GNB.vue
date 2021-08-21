@@ -5,20 +5,32 @@
       <img src="../assets/images/logo.svg" alt="">
       </a>
     </div>
+
+    <!-- Mobile -->
     <div class="navbar-hamburger-menu sm-only" >
-      <button type="button" class="dropdown-closed" @click="toggleMenu">
+      <button type="button" @click="toggleMenu">
         <img src="../assets/images/icon/hamburger-menu.svg" alt="">
       </button>
+    </div>
+
+    <!-- Tablet & Desktop -->
+    <div class="navbar-text-menus lg-only">
+      <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
+        {{a}}
+      </a>
+      <a class="navbar-dropdown-icon-search" href="#">
+          <img src="../assets/images/icon/search.svg" alt="Search">
+      </a>
     </div>
   </div>
   <transition name="dissolve">
     <div class="navbar-dropdown sm-only" v-if="menuOpen == true">
-    <a class="navbar-dropdown-menus" href="#" v-for="(a,i) in menus" :key="i">
-      {{a}}
-    </a>
-    <a class="navbar-dropdown-icon-search" href="#">
-      <img src="../assets/images/icon/search.svg" alt="">
-    </a>
+      <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
+        {{a}}
+      </a>
+      <a class="navbar-dropdown-icon-search" href="#">
+        <img src="../assets/images/icon/search.svg" alt="Search">
+      </a>
   </div>
   </transition>
 </template>
@@ -53,12 +65,6 @@ export default {
 @import '../styles/mixins/_text-style.scss';
 @import '../styles/mixins/_flexbox.scss';
 
-
-button {
-  padding: 0;
-  width: 64px;
-  height: 64px;
-}
 
 /* transitions from here */
 .dissolve-enter-from {
@@ -95,9 +101,20 @@ button {
   border-bottom: 1px solid $grey-2b;
 }
 
+.navbar a{
+  @include text-style(nav-link, $grey-2b);
+}
+
+.navbar button {
+  padding: 0;
+  width: 64px;
+  height: 64px;
+}
+
 .navbar-logo {
   margin-left: 24px;
 }
+
 .navbar-hamburger-menu {
   width: 64px;
   height: 64px;
@@ -108,7 +125,6 @@ button {
 }
 
 .navbar-dropdown a {
-  @include text-style(nav-link, $grey-2b);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -118,6 +134,21 @@ button {
   border-bottom: 1px solid $grey-2b;
 }
 
+.navbar-text-menus {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 52px;
+  padding: 14px;
+}
+
+.navbar-text-menus a {
+  margin-right: 42px;
+}
+
+.navbar-text-menus a:last-child {
+  margin-right: 0;
+}
 
 
 </style>
