@@ -1,14 +1,19 @@
 <template>
-  <Navbar />
+  <GNB :menus="menus"/>
 </template>
 
 <script>
-import Navbar from '/src/components/Navbar.vue'
+import GNB from '/src/components/GNB.vue';
 
 export default {
   name: 'App',
   components: {
-    Navbar
+    GNB
+  },
+  data() {
+    return {
+      menus: ['Articles', 'Events', 'Videos', 'Projects'],
+    }
   }
 }
 </script>
