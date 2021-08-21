@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbar-logo">
       <a href="/">
-      <img src="../assets/images/logo.svg" alt="">
+        <img src="../assets/images/logo.svg" alt="Logo">
       </a>
     </div>
 
@@ -23,6 +23,8 @@
       </a>
     </div>
   </div>
+
+  <!-- Mobile Dropdown -->
   <transition name="dissolve">
     <div class="navbar-dropdown sm-only" v-if="menuOpen == true">
       <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
@@ -93,15 +95,13 @@ export default {
 /* transitions to here */
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flexbox(between);
   width: 100%;
   height: 64px;
   border-bottom: 1px solid $grey-2b;
 }
 
-.navbar a{
+.navbar-menus {
   @include text-style(nav-link, $grey-2b);
 }
 
@@ -111,7 +111,8 @@ export default {
   height: 64px;
 }
 
-.navbar-logo {
+.navbar-logo a {
+  @include flexbox();
   margin-left: 24px;
 }
 
@@ -125,9 +126,7 @@ export default {
 }
 
 .navbar-dropdown a {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  @include flexbox(start);
   width: 100%;
   height: 72px;
   padding: 0 24px;
@@ -135,9 +134,7 @@ export default {
 }
 
 .navbar-text-menus {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  @include flexbox(end);
   height: 52px;
   padding: 14px;
 }
