@@ -7,7 +7,8 @@
     </div>
 
     <!-- Mobile -->
-    <div class="navbar-hamburger-menu sm-only" >
+    <div class="navbar-hamburger-menu sm-only">
+      <h1 class="visually-hidden">Navigation menu dropdown button</h1>
       <button type="button" @click="toggleMenu">
         <img src="../assets/images/icon/hamburger-menu.svg" alt="">
       </button>
@@ -15,6 +16,7 @@
 
     <!-- Tablet & Desktop -->
     <div class="navbar-text-menus lg-only">
+      <h1 class="visually-hidden">Navigation menus</h1>
       <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
         {{a}}
       </a>
@@ -27,6 +29,7 @@
   <!-- Mobile Dropdown -->
   <transition name="dissolve">
     <div class="navbar-dropdown sm-only" v-if="menuOpen == true">
+      <h1 class="visually-hidden">Navigation bar menu list </h1>
       <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
         {{a}}
       </a>
