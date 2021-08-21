@@ -1,14 +1,18 @@
 <template>
   <GNB :menus="menus"/>
+  <Footer />
 </template>
 
 <script>
 import GNB from '/src/components/GNB.vue';
+import Footer from '/src/components/Footer.vue';
+
 
 export default {
   name: 'App',
   components: {
-    GNB
+    GNB,
+    Footer
   },
   data() {
     return {
