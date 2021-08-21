@@ -5,12 +5,13 @@
           © Vuerbnb, Inc.
       </div>
       <div class="footer-links">
+          <div class="footer-text-links">
           <h1 class="visually-hidden">Footer links</h1>
           <a href="#" v-for="(a,i) in footerLinks" :key="i">
               {{a}}
           </a> 
       </div>
-      <div class="footer-social">
+      <div class="footer-social-links">
             <h1 class="visually-hidden">Footer social links</h1>
             <a href="#">
               <img src="../assets/images/icon/instagram-light.svg" alt="Instagram" />
@@ -18,6 +19,7 @@
           <a href="#">
               <img src="../assets/images/icon/twitter-light.svg" alt="Twitter" />
           </a>
+      </div>
       </div>
   </div>
 </template>
@@ -48,6 +50,14 @@ export default {
     background-color: $grey-2b;
 }
 
+.footer-links {
+    @include column-flexbox();
+}
+
+.footer-text-links {
+    @include column-flexbox();
+}
+
 .footer-logo {
     @include text-style(footer-logo, $white);
     @include flexbox();
@@ -55,40 +65,70 @@ export default {
     margin-bottom: 12px;
 }
 
-.footer-links {
+.footer-text-links {
     @include text-style(footer-links, $white);
-    @include column-flexbox();
 }
 
-.footer-links a{
+.footer-text-links a{
     margin-bottom: 32px;
 }
 
-.footer-links a:last-child{
+.footer-text-links a:last-child{
     margin-bottom: 12px;
 }
 
-.footer-social {
+.footer-social-links {
     padding: 32px 0;
 }
 
-.footer-social a{
+.footer-social-links a{
     margin-right: 48px;
 }
 
-.footer-social a:last-child{
+.footer-social-links a:last-child{
     margin-right: 0;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         @include flexbox(between);
-        height: 640px;
+        flex-direction: row;
+        height: 64px;
     }
 
     .footer-logo {
-    @include flexbox(start);
-    margin-left: 98px;
+        margin-left: 64px;
+        margin-bottom: 0;
+    }
+
+    .footer-links{
+        flex-direction: row;
+    }
+
+    .footer-text-links {
+        flex-direction: row;
+    }
+
+    .footer-text-links a{
+        margin-bottom: 0;
+        margin-right: 48px;
+    }
+
+    .footer-text-links a:last-child{
+        margin-bottom: 0;
+        margin-right: 40px;
+    }
+
+    .footer-social-links {
+        padding: 40px 0;
+    }
+
+    .footer-social-links a{
+        margin-right: 32px;
+    }
+
+    .footer-social-links a:last-child{
+        margin-right: 64px;
     }
 }
 
