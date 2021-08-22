@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
       <div class="footer-logo">
           <h1 class="visually-hidden">Footer logo</h1>
           © Vuerbnb, Inc.
@@ -21,7 +21,7 @@
           </a>
       </div>
       </div>
-  </div>
+  </footer>
 </template>
 
 <script>

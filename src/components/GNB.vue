@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <nav class="navbar">
     <div class="navbar-logo">
       <a href="/">
         <img src="../assets/images/logo.svg" alt="Logo">
@@ -24,7 +24,7 @@
           <img src="../assets/images/icon/search.svg" alt="Search">
       </a>
     </div>
-  </div>
+  </nav>
 
   <!-- Mobile Dropdown -->
   <transition name="dissolve">
