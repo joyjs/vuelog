@@ -1,18 +1,21 @@
 <template>
   <GNB :menus="menus"/>
   <Footer />
+  <newsletter />
 </template>
 
 <script>
 import GNB from '/src/components/GNB.vue';
 import Footer from '/src/components/Footer.vue';
+import Newsletter from './components/Newsletter.vue';
 
 
 export default {
   name: 'App',
   components: {
     GNB,
-    Footer
+    Footer,
+    Newsletter
   },
   data() {
     return {
