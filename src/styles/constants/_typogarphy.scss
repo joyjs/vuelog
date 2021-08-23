@@ -1,69 +1,73 @@
 @font-face {
-    font-family: 'Tiempos';
-    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+  font-family: 'Tiempos';
+  src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
     url('/fonts/Tiempos-Text/TiemposText-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Tiempos';
-    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+  font-family: 'Tiempos';
+  src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
     url('/fonts/Tiempos-Text/TiemposText-Italic.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
+  font-weight: 400;
+  font-style: italic;
 }
 
-
 @font-face {
-    font-family: 'Tiempos';
-    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+  font-family: 'Tiempos';
+  src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
     url('/fonts/Tiempos-Text/TiemposText-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Tiempos';
-    src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
+  font-family: 'Tiempos';
+  src: local('Tiempos Text'), local('TiemposText'), local('Tiempos'),
     url('/fonts/Tiempos-Text/TiemposText-BoldItalic.woff') format('woff');
-    font-weight: 700;
-    font-style: italic;
+  font-weight: 700;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue'), local('Helvetica Neue Light'), url('/fonts/Helvetica-Neue/HelveticaNeueLight.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Light'), local('Helvetica Neue'),
+    url('/fonts/Helvetica-Neue/HelveticaNeueLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue'),local('Helvetica Neue Light Italic'), url('/fonts/Helvetica-Neue/HelveticaNeueLightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Light Italic'), local('Helvetica Neue'),
+    url('/fonts/Helvetica-Neue/HelveticaNeueLightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue'),local('Helvetica Neue Bold'), url('/fonts/Helvetica-Neue/HelveticaNeueBold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    }
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Bold'), local('Helvetica Neue'),
+    url('/fonts/Helvetica-Neue/HelveticaNeueBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: local('Helvetica Neue'),local('Helvetica Neue Bold Italic'), url('/fonts/Helvetica-Neue/HelveticaNeueBoldItalic.woff') format('woff');
-    font-weight: 700;
-    font-style: italic;
-    }
+  font-family: 'Helvetica Neue';
+  src: local('Helvetica Neue Bold Italic'), local('Helvetica Neue'),
+    url('/fonts/Helvetica-Neue/HelveticaNeueBoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
 
 @font-face {
-    font-family: 'Helvetica Neue Condensed Black';
-    src: local('Helvetica Neue'), local('Helvetica Neue Condensed Black'), url('/fonts/Helvetica-Neue/HelveticaNeueCondensedBlack.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+  font-family: 'Helvetica Neue Condensed Black';
+  src: local('Helvetica Neue Condensed Black'),
+    url('/fonts/Helvetica-Neue/HelveticaNeueCondensedBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
 }
 
 // common
@@ -79,7 +83,6 @@ $font-family-list-title: 'Tiempos', serif;
 $font-weight-list-title: 700;
 $font-family-body: 'Tiempos', serif;
 $font-weight-body: 400;
-
 
 // global = mobile
 $font-size-nav-link: 17px;
@@ -108,7 +111,8 @@ $font-spacing-footer-links: 0;
 
 $font-size-h1: 34px;
 $font-height-h1: 40px;
-$font-spacing-h1: -0.031em;
+$font-spacing-h1: -0.015em;
+$font-spacing-h1-sub: -0.024em;
 
 $font-size-h2: 22px;
 $font-height-h2: 24px;
@@ -122,7 +126,6 @@ $font-size-categories: 14px;
 $font-height-categories: 16px;
 $font-spacing-categories: 0;
 
-
 // blog post
 
 $font-size-blog-h2: 24px;
@@ -135,16 +138,15 @@ $font-spacing-h3-subtitle: 0.006em;
 
 $font-size-h4: 14px;
 $font-height-h4: 32px;
-$font-spacing-h4: 0.05em;
+$font-spacing-h4: 0.036em;
 
 $font-size-blockquote: 36px;
 $font-height-blockquote: 48px;
-$font-spacing-blockquote: -0.031em;
+$font-spacing-blockquote: -0.015em;
 
 $font-size-list-title: 16.5px;
 $font-height-list-title: 29px;
 $font-spacing-list-title: 0.006em;
-
 
 // desktop
 
@@ -155,6 +157,3 @@ $desktop-spacing-body: 0;
 $desktop-list-title: 19px;
 $desktop-list-title: 36px;
 $desktop-list-title: 0;
-
-
-
