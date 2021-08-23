@@ -1,226 +1,220 @@
 // global = mobile
 @mixin text-style-nav-link() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-nav-link;
-    line-height: $font-height-nav-link;
-    letter-spacing: $font-spacing-nav-link;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-nav-link;
+  line-height: $font-height-nav-link;
+  letter-spacing: $font-spacing-nav-link;
 }
 
 @mixin text-style-button() {
-    font-family: $font-family-button-input;
-    font-weight: $font-weight-button-input;
-    font-size: $font-size-button-input;
-    line-height: $font-height-button-input;
-    letter-spacing: $font-spacing-button-input;
+  font-family: $font-family-button-input;
+  font-weight: $font-weight-button-input;
+  font-size: $font-size-button-input;
+  line-height: $font-height-button-input;
+  letter-spacing: $font-spacing-button-input;
 }
 
 @mixin text-style-newsletter-title() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-newsletter-title;
-    line-height: $font-height-newsletter-title;
-    letter-spacing: $font-spacing-newsletter-title;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-newsletter-title;
+  line-height: $font-height-newsletter-title;
+  letter-spacing: $font-spacing-newsletter-title;
 }
 
 @mixin text-style-newsletter-input() {
-    font-family: $font-family-button-input;
-    font-weight: $font-weight-button-input;
-    font-size: $font-size-button-input;
-    line-height: $font-height-button-input;
-    letter-spacing: $font-spacing-button-input;
+  font-family: $font-family-button-input;
+  font-weight: $font-weight-button-input;
+  font-size: $font-size-button-input;
+  line-height: $font-height-button-input;
+  letter-spacing: $font-spacing-button-input;
 }
 
 @mixin text-style-footer-logo() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-footer-logo;
-    line-height: $font-height-footer-logo;
-    letter-spacing: $font-spacing-footer-logo;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-footer-logo;
+  line-height: $font-height-footer-logo;
+  letter-spacing: $font-spacing-footer-logo;
 }
 
 @mixin text-style-footer-links() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-footer-links;
-    line-height: $font-height-footer-links;
-    letter-spacing: $font-spacing-footer-links;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-footer-links;
+  line-height: $font-height-footer-links;
+  letter-spacing: $font-spacing-footer-links;
 }
 
 @mixin text-style-h1() {
-    font-family: $font-family-header;
-    font-weight: $font-weight-header;
-    font-size: $font-size-h1;
-    line-height: $font-height-h1;
-    letter-spacing: $font-spacing-h1;
+  font-family: $font-family-header;
+  font-weight: $font-weight-header;
+  font-size: $font-size-h1;
+  line-height: $font-height-h1;
+  letter-spacing: $font-spacing-h1;
 }
 
 @mixin text-style-h1-subtitle() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-h1;
-    line-height: $font-height-h1;
-    letter-spacing: $font-spacing-h1;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-h1;
+  line-height: $font-height-h1;
+  letter-spacing: $font-spacing-h1-sub;
 }
 
 @mixin text-style-h2() {
-    font-family: $font-family-header;
-    font-weight: $font-weight-header;
-    font-size: $font-size-h2;
-    line-height: $font-height-h2;
-    letter-spacing: $font-spacing-h2;
+  font-family: $font-family-header;
+  font-weight: $font-weight-header;
+  font-size: $font-size-h2;
+  line-height: $font-height-h2;
+  letter-spacing: $font-spacing-h2;
 }
 
 @mixin text-style-h2-subtitle() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-h2;
-    line-height: $font-height-h2;
-    letter-spacing: $font-spacing-h2;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-h2;
+  line-height: $font-height-h2;
+  letter-spacing: $font-spacing-h2;
 }
 
 @mixin text-style-body() {
-    font-family: $font-family-body;
-    font-weight: $font-weight-body;
-    font-size: $font-size-body;
-    line-height: $font-height-body;
-    letter-spacing: $font-spacing-body;
+  font-family: $font-family-body;
+  font-weight: $font-weight-body;
+  font-size: $font-size-body;
+  line-height: $font-height-body;
+  letter-spacing: $font-spacing-body;
 }
 
 @mixin text-style-categories() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-categories;
-    line-height: $font-height-categories;
-    letter-spacing: $font-spacing-categories;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-categories;
+  line-height: $font-height-categories;
+  letter-spacing: $font-spacing-categories;
 }
-
 
 // blog post
 
 @mixin text-style-blog-h2() {
-    font-family: $font-family-header;
-    font-weight: $font-weight-header;
-    font-size: $font-size-blog-h2;
-    line-height: $font-height-blog-h2;
-    letter-spacing: $font-spacing-blog-h2;
+  font-family: $font-family-header;
+  font-weight: $font-weight-header;
+  font-size: $font-size-blog-h2;
+  line-height: $font-height-blog-h2;
+  letter-spacing: $font-spacing-blog-h2;
 }
 
 @mixin text-style-h3-subtitle() {
-    font-family: $font-family-default;
-    font-weight: $font-weight-default;
-    font-size: $font-size-h3-subtitle;
-    line-height: $font-height-h3-subtitle;
-    letter-spacing: $font-spacing-h3-subtitle;
+  font-family: $font-family-default;
+  font-weight: $font-weight-default;
+  font-size: $font-size-h3-subtitle;
+  line-height: $font-height-h3-subtitle;
+  letter-spacing: $font-spacing-h3-subtitle;
 }
 
 @mixin text-style-h4() {
-    font-family: $font-family-header;
-    font-weight: $font-weight-header;
-    font-size: $font-size-h4;
-    line-height: $font-height-h4;
-    letter-spacing: $font-spacing-h4;
+  font-family: $font-family-header;
+  font-weight: $font-weight-header;
+  font-size: $font-size-h4;
+  line-height: $font-height-h4;
+  letter-spacing: $font-spacing-h4;
 }
 
 @mixin text-style-blockquote() {
-    font-family: $font-family-blockquote;
-    font-weight: $font-weight-blockquote;
-    font-size: $font-size-blog-blockquote;
-    line-height: $font-height-blog-blockquote;
-    letter-spacing: $font-spacing-blog-blockquote;
+  font-family: $font-family-blockquote;
+  font-weight: $font-weight-blockquote;
+  font-size: $font-size-blog-blockquote;
+  line-height: $font-height-blog-blockquote;
+  letter-spacing: $font-spacing-blog-blockquote;
 }
 
 @mixin text-style-list-title() {
-    font-family: $font-family-list-title;
-    font-weight: $font-weight-list-title;
-    font-size: $font-size-list-title;
-    line-height: $font-height-list-title;
-    letter-spacing: $font-spacing-list-title;
+  font-family: $font-family-list-title;
+  font-weight: $font-weight-list-title;
+  font-size: $font-size-list-title;
+  line-height: $font-height-list-title;
+  letter-spacing: $font-spacing-list-title;
 }
-
 
 // desktop
 
 @mixin text-style-body-desktop() {
-    font-family: $font-family-body;
-    font-weight: $font-weight-body;
-    font-size: $desktop-size-body;
-    line-height: $desktop-height-body;
-    letter-spacing: $desktop-spacing-body;
+  font-family: $font-family-body;
+  font-weight: $font-weight-body;
+  font-size: $desktop-size-body;
+  line-height: $desktop-height-body;
+  letter-spacing: $desktop-spacing-body;
 }
 
 @mixin text-style-list-title-desktop() {
-    font-family: $font-family-list-title;
-    font-weight: $font-weight-list-title;
-    font-size: $desktop-size-list-title;
-    line-height: $desktop-height-list-title;
-    letter-spacing: $desktop-spacing-list-title;
+  font-family: $font-family-list-title;
+  font-weight: $font-weight-list-title;
+  font-size: $desktop-size-list-title;
+  line-height: $desktop-height-list-title;
+  letter-spacing: $desktop-spacing-list-title;
 }
 
-
-
 @mixin text-style($type, $color: false) {
-    @if ($type == nav-link) {
-        @include text-style-nav-link;
-    }
-    @if ($type == button) {
-        @include text-style-button;
-    }
-    @if ($type == newsletter-title) {
-        @include text-style-newsletter-title;
-    }
-    @if ($type == newsletter-input) {
-        @include text-style-newsletter-input;
-    }
-    @if ($type == footer-logo) {
-        @include text-style-footer-logo;
-    }
-    @if ($type == footer-links) {
-        @include text-style-footer-links;
-    }
-    @if ($type == h1) {
-        @include text-style-h1;
-    }
-    @if ($type == h1-subtitle) {
-        @include text-style-h1-subtitle;
-    }
-    @if ($type == h2) {
-        @include text-style-h2;
-    }
-    @if ($type == h2-subtitle) {
-        @include text-style-h2-subtitle;
-    }
-    @if ($type == body) {
-        @include text-style-body;
-    }
-    @if ($type == categories) {
-        @include text-style-categories;
-    }
-    @if ($type == blog-h2) {
-        @include text-style-blog-h2;
-    }
-    @if ($type == h3-subtitle) {
-        @include text-style-h3-subtitle;
-    }
-    @if ($type == h4) {
-        @include text-style-h4;
-    }
-    @if ($type == blockquote) {
-        @include text-style-blockquote;
-    }
-    @if ($type == list-title) {
-        @include text-style-list-title;
-    }
-    @if ($type == body-desktop) {
-        @include text-style-body-desktop;
-    }
-    @if ($type == list-title-desktop) {
-        @include text-style-list-title-desktop;
-    }
-   
+  @if ($type == nav-link) {
+    @include text-style-nav-link;
+  }
+  @if ($type == button) {
+    @include text-style-button;
+  }
+  @if ($type == newsletter-title) {
+    @include text-style-newsletter-title;
+  }
+  @if ($type == newsletter-input) {
+    @include text-style-newsletter-input;
+  }
+  @if ($type == footer-logo) {
+    @include text-style-footer-logo;
+  }
+  @if ($type == footer-links) {
+    @include text-style-footer-links;
+  }
+  @if ($type == h1) {
+    @include text-style-h1;
+  }
+  @if ($type == h1-subtitle) {
+    @include text-style-h1-subtitle;
+  }
+  @if ($type == h2) {
+    @include text-style-h2;
+  }
+  @if ($type == h2-subtitle) {
+    @include text-style-h2-subtitle;
+  }
+  @if ($type == body) {
+    @include text-style-body;
+  }
+  @if ($type == categories) {
+    @include text-style-categories;
+  }
+  @if ($type == blog-h2) {
+    @include text-style-blog-h2;
+  }
+  @if ($type == h3-subtitle) {
+    @include text-style-h3-subtitle;
+  }
+  @if ($type == h4) {
+    @include text-style-h4;
+  }
+  @if ($type == blockquote) {
+    @include text-style-blockquote;
+  }
+  @if ($type == list-title) {
+    @include text-style-list-title;
+  }
+  @if ($type == body-desktop) {
+    @include text-style-body-desktop;
+  }
+  @if ($type == list-title-desktop) {
+    @include text-style-list-title-desktop;
+  }
 
-
-    @if (type-of($color) ≠ false) {
-        color: $color;
-    }
+  @if (type-of($color) ≠ false) {
+    color: $color;
+  }
 }
