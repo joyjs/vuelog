@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-logo">
       <a href="/">
-        <img src="../assets/images/logo.svg" alt="Logo">
+        <img src="../assets/images/logo.svg" alt="Logo" />
       </a>
     </div>
 
@@ -10,18 +10,18 @@
     <div class="navbar-hamburger-menu sm-only">
       <h1 class="visually-hidden">Navigation menu dropdown button</h1>
       <button type="button" @click="toggleMenu">
-        <img src="../assets/images/icon/hamburger-menu.svg" alt="">
+        <img src="../assets/images/icon/hamburger-menu.svg" alt="" />
       </button>
     </div>
 
     <!-- Tablet & Desktop -->
     <div class="navbar-text-menus lg-only">
       <h1 class="visually-hidden">Navigation menus</h1>
-      <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
-        {{a}}
+      <a href="#" class="navbar-menus" v-for="(a, i) in menus" :key="i">
+        {{ a }}
       </a>
       <a class="navbar-dropdown-icon-search" href="#">
-          <img src="../assets/images/icon/search.svg" alt="Search">
+        <img src="../assets/images/icon/search.svg" alt="Search" />
       </a>
     </div>
   </nav>
@@ -29,36 +29,35 @@
   <!-- Mobile Dropdown -->
   <transition name="dissolve">
     <div class="navbar-dropdown sm-only" v-if="menuOpen == true">
-      <h1 class="visually-hidden">Navigation bar menu list </h1>
-      <a href="#" class="navbar-menus" v-for="(a,i) in menus" :key="i">
-        {{a}}
+      <h1 class="visually-hidden">Navigation bar menu list</h1>
+      <a href="#" class="navbar-menus" v-for="(a, i) in menus" :key="i">
+        {{ a }}
       </a>
       <a class="navbar-dropdown-icon-search" href="#">
-        <img src="../assets/images/icon/search.svg" alt="Search">
+        <img src="../assets/images/icon/search.svg" alt="Search" />
       </a>
-  </div>
+    </div>
   </transition>
 </template>
 
 <script>
 export default {
-    name: 'GNB',
-      data() {
-        return {
-          menuOpen: false,
-          menuDropdownOpen: false, 
-        }
-      },
-      props: {
-        menus: Array,
-      },
-      methods: {
-        toggleMenu() {
-          this.menuOpen = !this.menuOpen
-        }
-      },
+  name: 'GNB',
+  data() {
+    return {
+      menuOpen: false,
+      menuDropdownOpen: false
+    }
+  },
+  props: {
+    menus: Array
+  },
+  methods: {
+    toggleMenu() {
+      this.menuOpen = !this.menuOpen
+    }
+  }
 }
-
 </script>
 
 <style lang="scss">
@@ -69,7 +68,6 @@ export default {
 @import '../styles/base/_globals.scss';
 @import '../styles/mixins/_text-style.scss';
 @import '../styles/mixins/_flexbox.scss';
-
 
 /* transitions from here */
 .dissolve-enter-from {
@@ -149,6 +147,4 @@ export default {
 .navbar-text-menus a:last-child {
   margin-right: 24px;
 }
-
-
 </style>
