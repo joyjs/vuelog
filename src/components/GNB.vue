@@ -99,6 +99,7 @@ export default {
   @include flexbox(between);
   width: 100%;
   height: 64px;
+  margin-bottom: 96px;
   border-bottom: 1px solid $grey-2b;
 }
 
