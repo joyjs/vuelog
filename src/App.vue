@@ -1,25 +1,38 @@
 <template>
-  <GNB :menus="menus"/>
+  <GNB :menus="menus" />
+  <RecentPost />
+  <!-- <InfinitePost
+    :infinitePost="infinitePost[i]"
+    v-for="(a, i) in infinitePost"
+    :key="i"
+  /> -->
+  <Newsletter />
   <Footer />
-  <newsletter />
 </template>
 
 <script>
-import GNB from '/src/components/GNB.vue';
-import Footer from '/src/components/Footer.vue';
-import Newsletter from './components/Newsletter.vue';
-
+import recentPost from './assets/recent-post'
+import infinitePost from './assets/infinite-post'
+import GNB from './components/GNB.vue'
+import RecentPost from './components/RecentPost.vue'
+// import InfinitePost from './components/InfinitePost.vue'
+import Newsletter from './components/Newsletter.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     GNB,
-    Footer,
-    Newsletter
+    RecentPost,
+    // InfinitePost,
+    Newsletter,
+    Footer
   },
   data() {
     return {
       menus: ['Articles', 'Events', 'Videos', 'Projects'],
+      recentPost: recentPost,
+      infinitePost: infinitePost
     }
   }
 }
