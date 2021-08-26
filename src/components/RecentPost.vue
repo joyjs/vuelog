@@ -60,7 +60,6 @@
       <div class="column">
         <article class="recent-post-3">
           <a class="recent-post-thumblink" />
-
           <div class="recent-post-texts">
             <a class="recent-post-title-group">
               <h1 class="recent-post-title">
@@ -134,6 +133,14 @@ export default {
   border: 1px solid $grey-2b;
 }
 
+.recent-post-thumblink {
+  @include flexbox();
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
 .recent-post-1 .recent-post-thumblink {
   background-image: url('https://airbnb.design/wp-content/uploads/2021/06/WebHeaderLarge.png');
   background-position: center;
@@ -151,14 +158,6 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.recent-post-thumblink {
-  @include flexbox();
-  width: 100%;
-  height: 30vh;
-  overflow: hidden;
-  margin-bottom: 32px;
 }
 
 .recent-post-texts {
