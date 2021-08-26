@@ -99,8 +99,8 @@ export default {
   @include flexbox(between);
   width: 100%;
   height: 64px;
-  margin-bottom: 96px;
   border-bottom: 1px solid $grey-2b;
+  overflow: hidden;
 }
 
 .navbar-menus {
@@ -122,7 +122,7 @@ export default {
   width: 64px;
   height: 64px;
   padding: 0;
-  background-color: $grey-D3;
+  background-color: $grey-d3;
   border-left: 1px solid $grey-2b;
   border-bottom: 1px solid $grey-2b;
 }
