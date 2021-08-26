@@ -709,6 +709,14 @@ hr {
     padding: 0 240px;
   }
 
+  .post-content-body {
+    @include text-style(body-desktop);
+  }
+
+  .post-content-list-title {
+    @include text-style(list-title-desktop);
+  }
+
   /* buttons */
 
   .button-group {
