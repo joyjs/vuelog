@@ -5,7 +5,7 @@ export default [
     subtitle: 'How to build a Design education program for creative work',
     image:
       'https://airbnb.design/wp-content/uploads/2021/06/WebHeaderLarge.png',
-    categories: ['Behind the scens', 'Perspectives']
+    categories: ['Behind the scenes', 'Perspectives']
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export default [
     subtitle: 'How to define the behaviors you value',
     image:
       'https://airbnb.design/wp-content/uploads/2021/06/Leadership-archetypes-blog-header.png',
-    categories: ['Behind the scens', 'Perspectives']
+    categories: ['Behind the scenes', 'Perspectives']
   },
   {
     id: 2,
@@ -21,6 +21,6 @@ export default [
     subtitle: '5 learnings from developing trauma-informed products',
     image:
       'https://airbnb.design/wp-content/uploads/2021/01/Header_Trauma-Informed-Design.jpg',
-    categories: ['Behind the scens', 'Case Study']
+    categories: ['Behind the scenes', 'Case Study']
   }
 ]
