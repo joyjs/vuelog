@@ -107,18 +107,22 @@ export default {
   @include column-flexbox();
 }
 
+.recent-posts {
+  margin-top: 96px;
+}
+
 .row {
   @include flexbox();
   flex-wrap: wrap;
   width: 100%;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .column {
   @include column-flexbox();
   width: 100%;
   flex-basis: 100%;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .recent-post-1,
@@ -128,14 +132,6 @@ export default {
   height: auto;
   margin-bottom: 48px;
   border: 1px solid $grey-2b;
-}
-
-.recent-post-thumblink {
-  @include flexbox();
-  width: 100%;
-  height: 30vh;
-  overflow: hidden;
-  margin-bottom: 32px;
 }
 
 .recent-post-1 .recent-post-thumblink {
@@ -155,6 +151,14 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.recent-post-thumblink {
+  @include flexbox();
+  width: 100%;
+  height: 30vh;
+  overflow: hidden;
+  margin-bottom: 32px;
 }
 
 .recent-post-texts {
@@ -215,7 +219,7 @@ export default {
     width: 50%;
     transform: translateY(-73px);
     border: 1px solid $grey-2b;
-    background-color: #fff;
+    background-color: $white;
   }
 
   .sub-posts {
