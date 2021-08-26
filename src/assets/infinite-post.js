@@ -35,7 +35,7 @@ export default [
     title: 'A Home Between Places',
     subtitle: 'Opening doors to counter closed borders',
     image: 'https://airbnb.design/wp-content/uploads/2017/01/tehran-v3.jpg',
-    categories: ['Behind the scens', 'Perspectives']
+    categories: ['Behind the scenes', 'Perspectives']
   },
   {
     id: 5,
@@ -44,14 +44,14 @@ export default [
       'Our free digital toolkit for freelance illustrators Shining a light on how reserach guides our product development',
     image:
       'https://airbnb.design/wp-content/uploads/2016/08/DoorsCorners_Final-MS.png',
-    categories: ['Behind the scens']
+    categories: ['Behind the scenes']
   },
   {
     id: 6,
     title: 'Building a Visual Language',
     subtitle: 'Behind the scenes of our new design system',
     image: 'https://airbnb.design/wp-content/uploads/2016/05/dls-header-1.png',
-    categories: ['Behind the scens']
+    categories: ['Behind the scenes']
   }
   // {
   //     id: 0,
