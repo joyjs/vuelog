@@ -35,7 +35,7 @@ export default [
     title: 'A Home Between Places',
     subtitle: 'Opening doors to counter closed borders',
     image: 'https://airbnb.design/wp-content/uploads/2017/01/tehran-v3.jpg',
-    categories: ['Behind the scenes', 'Perspectives']
+    categories: ['Perspectives']
   },
   {
     id: 5,
@@ -52,19 +52,39 @@ export default [
     subtitle: 'Behind the scenes of our new design system',
     image: 'https://airbnb.design/wp-content/uploads/2016/05/dls-header-1.png',
     categories: ['Behind the scenes']
+  },
+  {
+    id: 7,
+    title: 'Forecasting the Future',
+    subtitle:
+      ' Eleven in-house creative leaders tell us what’s next for design in 2020',
+    image:
+      'https://airbnb.design/wp-content/uploads/2020/01/PredictionsHeader.jpg',
+    categories: ['Perspectives']
+  },
+  {
+    id: 8,
+    title: 'Speaking of… Life Paths',
+    subtitle: ' Content Strategist Amy Gurka talks seeking growth over glamour',
+    image:
+      'https://airbnb.design/wp-content/uploads/2018/03/AB-MAR18-Speaking-Of-Final-Yellow.jpg',
+    categories: ['Perspectives']
+  },
+
+  {
+    id: 9,
+    title: 'The Way We Build',
+    subtitle:
+      'How rethinking the Airbnb app changed the way we approach design',
+    image:
+      'https://airbnb.design/wp-content/uploads/2016/04/OG-airbnb_waywebuild_header_og_babu.png',
+    categories: ['Perspectives']
+  },
+  {
+    id: 10,
+    title: 'Building a Visual Language',
+    subtitle: ' Behind the scenes of our new design system',
+    image: 'https://airbnb.design/wp-content/uploads/2016/05/dls-header-1.png',
+    categories: ['Behind the scenes']
   }
-  // {
-  //     id: 0,
-  //     title: '',
-  //     subtitle: '',
-  //     image: '',
-  //     categories: [''],
-  // },
-  // {
-  //     id: 0,
-  //     title: '',
-  //     subtitle: '',
-  //     image: '',
-  //     categories: [''],
-  // },
 ]
