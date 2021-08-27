@@ -490,6 +490,7 @@ hr {
   @include column-flexbox(between, start);
   padding: 32px 24px;
   min-height: 248px;
+  background-color: $white;
 }
 
 .post-hero-title-group {
