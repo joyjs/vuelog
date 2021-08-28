@@ -5,14 +5,14 @@
         <article class="post-hero">
           <img :src="recentPost[0].image" alt="Post image" />
           <div class="post-hero-texts">
-            <a class="post-hero-title-group">
+            <div class="post-hero-title-group">
               <h1 class="post-hero-title">
                 {{ recentPost[0].title }}
               </h1>
               <h1 class="post-hero-subtitle">
                 {{ recentPost[0].subtitle }}
               </h1>
-            </a>
+            </div>
             <div class="post-hero-categories">
               <div class="visually-hidden">
                 Categories
@@ -367,17 +367,21 @@
           <div class="column">
             <div class="infinite-post-1">
               <a href="#" class="infinite-post-image">
-                <img :src="infinitePost[4].image" alt="" />
+                <router-link to="/a-home-between-places">
+                  <img :src="infinitePost[4].image" alt="" />
+                </router-link>
               </a>
               <a href="#" class="infinite-post-texts">
-                <div class="infinite-post-title-group">
-                  <h2 class="infinite-post-title">
-                    {{ infinitePost[4].title }}
-                  </h2>
-                  <h2 class="infinite-post-subtitle">
-                    {{ infinitePost[4].subtitle }}
-                  </h2>
-                </div>
+                <router-link to="/a-home-between-places">
+                  <div class="infinite-post-title-group">
+                    <h2 class="infinite-post-title">
+                      {{ infinitePost[4].title }}
+                    </h2>
+                    <h2 class="infinite-post-subtitle">
+                      {{ infinitePost[4].subtitle }}
+                    </h2>
+                  </div>
+                </router-link>
                 <div class="infinite-post-categories">
                   <a
                     href="#"
