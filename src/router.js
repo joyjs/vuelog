@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from 'vue-router'
+import { createWebHashHistory, createRouter } from 'vue-router'
 import Home from './components/Home.vue'
 import Post0 from './components/Post0.vue'
 import Post1 from './components/Post1.vue'
@@ -13,13 +13,13 @@ const routes = [
     component: Post0
   },
   {
-    path: '/a-homme-between-places',
+    path: '/a-home-between-places',
     component: Post1
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
