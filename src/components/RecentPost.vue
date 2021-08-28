@@ -3,16 +3,21 @@
     <div class="row">
       <div class="column">
         <article class="recent-post-1">
-          <a class="recent-post-thumblink" />
+          <router-link to="/learning-lessons">
+            <a class="recent-post-thumblink" />
+          </router-link>
           <div class="recent-post-texts">
             <a class="recent-post-title-group">
-              <h1 class="recent-post-title">
-                Learning Lessons
-              </h1>
-              <h1 class="recent-post-subtitle">
-                How to build a Design education program for creative work
-              </h1>
+              <router-link to="/learning-lessons">
+                <h1 class="recent-post-title">
+                  Learning Lessons
+                </h1>
+                <h1 class="recent-post-subtitle">
+                  How to build a Design education program for creative work
+                </h1>
+              </router-link>
             </a>
+
             <div class="recent-post-categories">
               <div class="visually-hidden">
                 Categories
