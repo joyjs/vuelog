@@ -50,6 +50,7 @@ export default {
 .footer {
   @include column-flexbox();
   padding: 24px;
+  overflow: hidden;
   background-color: $grey-2b;
 }
 
