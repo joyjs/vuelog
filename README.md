@@ -4,7 +4,7 @@
 <!-- Header -->
 
 <div align="middle" >
-  <img width="120px;" src="https://user-images.githubusercontent.com/46529118/141477769-90885f88-e95a-4687-89a0-4a440424547e.png"/>
+  <img width="120px;" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/pencil_270f-fe0f.png"/>
 </div>
 
 <h1 align="middle">Vuelog</h2>
