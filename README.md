@@ -12,10 +12,10 @@
 
 <p align="middle">
   <img src="https://img.shields.io/badge/version-1.0.0-yellowgreen?style=flat-square" alt="template version"/>
-  <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>
-  <img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/>
-  <img src="https://img.shields.io/badge/language-vue-brightgreen"/>
-  <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square"/>
+  <img src="https://img.shields.io/badge/language-HTML-F1652A.svg?style=flat-square"/>
+  <img src="https://img.shields.io/badge/language-SASS-BF4080"/>
+  <img src="https://img.shields.io/badge/language-VUE-42B983"/>
+  <img src="https://img.shields.io/badge/license-MIT-A51931.svg?style=flat-square"/>
 </p>
 
 
