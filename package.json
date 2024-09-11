@@ -10,11 +10,11 @@
     "sass": "node-sass -wr —source-map true styles/main.scss style.css"
   },
   "dependencies": {
-    "@popperjs/core": "^2.9.3",
-    "core-js": "^3.6.5",
-    "css-loader": "^6.8.1",
-    "vue": "^3.3.10",
-    "vue-router": "^4.0.11",
+    "@popperjs/core": "^2.11.8",
+    "core-js": "^3.38.1",
+    "css-loader": "^6.11.0",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3",
     "vue-style-loader": "^4.1.3"
   },
   "devDependencies": {
